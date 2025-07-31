@@ -1,11 +1,11 @@
 # **Hosting a Static Website on AWS EC2 with a Custom Domain and HTTPS Security via Certbot**
 
 
-## **🧾 Project Description:**
+## **1. Project Description:**
 This project involves deploying a static website on an Amazon EC2 instance, linking it to a custom domain name, and securing the connection using HTTPS with the help of Certbot and Let's Encrypt SSL certificates. It demonstrates key skills in cloud computing, web hosting, domain configuration, and SSL certificate management.
 
 
-## **🛠️ Technologies Used:**
+## **2. Technologies Used:**
 * Amazon EC2 (Amazon Linux/Ubuntu)
 * Nginx (Web Server)
 * Certbot (Let's Encrypt)
@@ -14,7 +14,7 @@ This project involves deploying a static website on an Amazon EC2 instance, link
 * DNS Configuration (A Record, CNAME)
   
 
-## **📦 Key Components:**
+## **3. Key Components:**
 1. Static Website Deployment:
    * A simple HTML/CSS website hosted in the ``` /usr/share/nginx/html ``` directory on an EC2 instance.
    * Configured using Nginx to server static content.
@@ -30,19 +30,19 @@ This project involves deploying a static website on an Amazon EC2 instance, link
    * Auto-renewal setup via cron or systemd timers.
 
 
-## **🔐 Security Considerations:**
+## **4. Security Considerations:**
    * Configured firewall rules (Security Groups) to allow HTTP (port 80) and HTTPS (port 443).
    * Restricted SSH (port 22) to specific IPs for better security.
    * Automatic renewal of SSL certificates every 60 days.
 
 
-## **✅ Outcome:**
+## **5. Outcome:**
    * Static website is live and accessible using a custom domain name.
    * Connection is encrypted and secure using HTTPS.
    * SSL certificate is valid and auto-renewed using Certbot.
 
 
-## **🚀 Skills Demonstrated:**
+## **6. Skills Demonstrated:**
    * EC2 provisioning and Linux server management
    * Web server setup with Nginx
    * DNS and domain linking
