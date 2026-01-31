@@ -43,8 +43,8 @@ This project involves deploying a static website on an Amazon EC2 instance, link
 
 
 ## **6. Skills Demonstrated:**
-   * EC2 provisioning and Linux server management
-   * Web server setup with Nginx
-   * DNS and domain linking
-   * SSL implementation with Let's Encrypt
-   * Secure hosting best practices
+   * EC2 provisioning and Linux server management.
+   * Web server setup with Nginx.
+   * DNS and domain linking.
+   * SSL implementation with Let's Encrypt.
+   * Secure hosting best practices.
