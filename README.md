@@ -33,7 +33,7 @@ This project involves deploying a static website on an Amazon EC2 instance, link
 ## **4. Security Considerations:**
    * Configured firewall rules (Security Groups) to allow HTTP (port 80) and HTTPS (port 443).
    * Restricted SSH (port 22) to specific IPs for better security.
-   * Automatic renewal of SSL certificates every 60 days.
+   * Automatic renewal of SSL certificates every 60 days..
 
 
 ## **5. Outcome:**
