@@ -23,7 +23,7 @@ This project involves deploying a static website on an Amazon EC2 instance, link
    * DNS records (A Record) pointed to the public IP of the EC2 instance using the domain registrar or AWS Route 53.
 3. Web Server Configuration:
    * Nginx configured to handle requests for the domain.
-   * Created server block to define how traffic is handled for HTTP and HTTPS.
+   * Created server block to define how traffic is handled for HTTP and HTTPS..
 4. Securing Website with HTTPS:
    * Installed Certbot on the EC2 instance.
    * Generated and installed free SSL certificates using Let's Encrypt.
